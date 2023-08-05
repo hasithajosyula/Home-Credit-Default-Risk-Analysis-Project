@@ -8,7 +8,7 @@ Home Credit strives to broaden financial inclusion for the unbanked population b
 
 While Home Credit is currently using various statistical and machine learning methods to make these predictions, they're challenging Kagglers to help them unlock the full potential of their data. Doing so will ensure that clients capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
 
-**Business Problem**
+**Business Problem:**
 
 Home Credit is a B2C company serving the unbanked sector of the populations by serving them loans. As these sectors has little to no credit history, Home Credit needs to assess repayment ability of the customer depending on other factors of the customers and provide them with trustful services. To improve this situation, Home Credit needs to assess the following factors for any customers to successfully give a loan:
 
@@ -30,7 +30,7 @@ The primary objective of this project revolves around utilizing historical loan 
 
 Our project undertakes the construction of a Machine Learning model that exhibits the proficiency to forecast both potential loan defaulters and the creditworthiness of individuals seeking financial borrowing. Anchored in historical data, our efforts are dedicated to developing a robust and accurate model ideally suited to seamlessly integrate into existing operational processes. Through the amalgamation of data-driven insights, we aspire to enhance the precision and effectiveness of loan assessment procedures.
 
-**Your group's solution to the business problem.**
+**Your group's solution to the business problem:**
 
 The data is distributed across multiple tables, each representing a factor utilized by Home Credit to comprehend customer behavior. The primary challenge we encountered was identifying the pivotal features that hold the key to predicting customer default. To address this, we embarked on an initial step of conducting Exploratory Data Analysis (EDA) and formulated hypotheses based on both intuition and EDA findings.
 
@@ -40,15 +40,15 @@ Our objective was to construct a classification model that effectively predicts 
 
 During the model assessment, we employed the area under the curve (AUC) as our performance metric, leading us to identify the top three models out of the ten. These included two XGboosted models and one Ridge Regression linear model. The AUC scores ranged between 0.6477 and 0.6843. To enhance performance, we created an ensemble model by integrating the top three models along with their specific sampling techniques. The final ensemble model yielded the highest score among the four models submitted to Kaggle, achieving a score of 0.71609. In light of these results, we recommend Home Credit to consider employing this combined methodology for future application reviews. This approach exhibited a 20% performance increase over the majority response classification. By integrating this model, Home Credit can enhance its ability to predict applicants unsuitable for loan approval based on their credit history.
 
-**Your contribution to the project**
+**Your contribution to the project:**
 
 Throughout the project, I played a major role in both Exploratory Data Analysis (EDA) and Modeling. In close collaboration with the team, we engaged in weekly brainstorming sessions to unravel the intricacies of the dataset. An integral facet of my responsibilities was exploring the relationships between the target variable and predictor variables within the dataset, which is an important part of this project's framework. Furthermore, I was also involved in building predictive models and calculating essential metrics such as AUC, accuracy, and others. I also performed activities related to feature engineering and carefully assessed the importance of features. This deliberate approach aimed to improve the model by recognizing and changing important features.
 
-**The business value of the solution**
+**The business value of the solution:**
 
 The company is currently experiencing an 8% default rate among all its loans. Our model has been constructed with an accuracy of 68%. Considering this, if the company adopts our algorithm for loan approval decisions, it could prevent approximately 5.44% of loans from being extended to defaulters. As a result, the percentage of defaulters could decrease to 2.56%, leading to reduced losses. Moreover, by enhancing the quality of training, the model's accuracy has the potential to improve further. This, in turn, would contribute to minimizing losses even more effectively.
 
-**Difficulties that your group encountered along the way**
+**Difficulties that your group encountered along the way:**
 
 Throughout the project, we encountered a series of challenges that tested our problem-solving abilities. Initially, we grappled with the dataset's vastness, which contained many variables. Comprehending the intricacies of the data demanded a considerable amount of time and effort. Another significant hurdle was the pronounced imbalance within the dataset. This imbalance had the potential to introduce bias into our predictions. We implemented techniques like undersampling, oversampling, and SMOTE to mitigate this. These measures were essential in tackling issues of overfitting or underfitting.
 
@@ -56,7 +56,7 @@ The process of constructing models presented its own set of obstacles. Determini
 
 Engaging in feature engineering and evaluating feature significance also came with their share of challenges, largely stemming from the notable variations detected within the fields. Furthermore, collaborating on the project posed challenges, as team members were concurrently juggling full-time jobs or internships. This restricted availability sometimes made coordination and meeting deadlines demanding. Despite these challenges, we persevered with determination and successfully produced a resilient credit risk prediction model for Home Credit.
 
-**What you learned in the project**
+**What you learned in the project:**
 
 Engaging in the Home Credit default risk analysis project provided me with immensely valuable experience. It taught me how to handle extensive datasets effectively, address outliers and missing values, and manage dataset imbalances. I acquired the skillset to employ techniques like undersampling, oversampling, and SMOTE to mitigate imbalance and potential bias in the data. Furthermore, I delved into Lasso and ridge regression models, expanding my data science knowledge beyond my prior understanding. This enriched my data science comprehension and facilitated the enhancement of my skillset.
 
