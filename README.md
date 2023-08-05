@@ -1,6 +1,6 @@
 # Home-Credit-Default-Risk-Analysis-Project
 
-**INTRODUCTION:**
+**Introduction:**
 
 Many people struggle to get loans due to insufficient or non-existent credit histories. And, unfortunately, this population is often taken advantage of by untrustworthy lenders.
 
@@ -8,7 +8,7 @@ Home Credit strives to broaden financial inclusion for the unbanked population b
 
 While Home Credit is currently using various statistical and machine learning methods to make these predictions, they're challenging Kagglers to help them unlock the full potential of their data. Doing so will ensure that clients capable of repayment are not rejected and that loans are given with a principal, maturity, and repayment calendar that will empower their clients to be successful.
 
-**BUSINESS PROBLEM**
+**Business Problem**
 
 Home Credit is a B2C company serving the unbanked sector of the populations by serving them loans. As these sectors has little to no credit history, Home Credit needs to assess repayment ability of the customer depending on other factors of the customers and provide them with trustful services. To improve this situation, Home Credit needs to assess the following factors for any customers to successfully give a loan:
 
